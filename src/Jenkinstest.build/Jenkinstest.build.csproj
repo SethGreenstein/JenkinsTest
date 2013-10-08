@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>54d6b493-c234-4c25-85a8-7c0933b88f1f</ProjectGuid>
+    <ProjectGuid>{439B4B38-B1EA-4D4B-9A78-0DACC127E378}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jenkinstest.build</RootNamespace>
@@ -33,6 +33,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="DeployAzureApp.ps1" />
+    <None Include="Nant.build" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BuildTargets.xml" />
+    <Content Include="GlobalBuildSettings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
