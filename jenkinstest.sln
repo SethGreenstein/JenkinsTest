@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jenkinstest", "jenkinstest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jenkinstest.build", "src\Jenkinstest.build\Jenkinstest.build.csproj", "{439B4B38-B1EA-4D4B-9A78-0DACC127E378}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jenkinstest.UnitTest", "Jenkinstest.UnitTeat\Jenkinstest.UnitTest.csproj", "{B813B00B-8F6E-4D0C-AA63-03864302A439}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,10 @@ Global
 		{439B4B38-B1EA-4D4B-9A78-0DACC127E378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{439B4B38-B1EA-4D4B-9A78-0DACC127E378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{439B4B38-B1EA-4D4B-9A78-0DACC127E378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B813B00B-8F6E-4D0C-AA63-03864302A439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B813B00B-8F6E-4D0C-AA63-03864302A439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B813B00B-8F6E-4D0C-AA63-03864302A439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B813B00B-8F6E-4D0C-AA63-03864302A439}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
