@@ -213,6 +213,7 @@
     <Content Include="GlobalBuildSettings.xml" />
     <Content Include="Nant.build" />
     <Content Include="DeployAzureApp.ps1" />
+    <None Include="Properties\PublishProfiles\JenkinsTest.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
