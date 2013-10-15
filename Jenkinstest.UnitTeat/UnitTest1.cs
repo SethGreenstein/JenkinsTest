@@ -9,7 +9,10 @@ namespace Jenkinstest.UnitTest
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(1 == 2);
+            var ts = new jenkinstest.TestService();
+
+            Assert.AreSame("Continuous Integration is Awesome!!!!!", ts.GetMessage());
+
 
         }
     }
