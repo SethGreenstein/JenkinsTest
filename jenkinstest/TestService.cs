@@ -9,7 +9,7 @@ namespace jenkinstest
     {
         public string GetMessage()
         {
-            return "Continuous Integration is Awesome!!!!!";
+            return "Continuous Integration is Awesome!!";
 
         }
     }
