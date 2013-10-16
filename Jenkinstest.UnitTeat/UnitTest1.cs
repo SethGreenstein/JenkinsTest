@@ -11,7 +11,7 @@ namespace Jenkinstest.UnitTest
         {
             var ts = new jenkinstest.TestService();
 
-            Assert.AreSame("Continuous Integration is Awesome!!!!", ts.GetMessage());
+            Assert.AreSame("Continuous Integration is Awesome!!!", ts.GetMessage());
 
 
         }
