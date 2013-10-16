@@ -10,7 +10,10 @@ namespace jenkinstest.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "This is a demonstration projest to show the capabilities of Continuous Integration";
+            var ts = new TestService();
+            ViewBag.Message = ts.GetMessage();
+
+           // ViewBag.Message = "This is a demonstration projest to show the capabilities of Continuous Integration";
 
             return View();
         }
@@ -18,8 +21,9 @@ namespace jenkinstest.Controllers
         public ActionResult About()
         {
             var ts = new TestService();
-            ViewBag.Message = ts.GetMessage() ;
+            ViewBag.Message = ts.GetMessage();
 
+        
             return View();
         }
 
