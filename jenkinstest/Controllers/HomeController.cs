@@ -17,7 +17,8 @@ namespace jenkinstest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Williams Forrest Continous Integration Demo";
+            var ts = new TestService();
+            ViewBag.Message = ts.GetMessage() ;
 
             return View();
         }
