@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jenkinstest", "jenkinstest\jenkinstest.csproj", "{4F0A5DB8-35B3-4126-9D38-B12D748ADCCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jenkinstest.build", "src\Jenkinstest.build\Jenkinstest.build.csproj", "{439B4B38-B1EA-4D4B-9A78-0DACC127E378}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jenkinstest.UnitTest", "Jenkinstest.UnitTeat\Jenkinstest.UnitTest.csproj", "{B813B00B-8F6E-4D0C-AA63-03864302A439}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4E78F214-C1C3-4C94-9268-A5D950B1CF8D}"
@@ -25,9 +23,6 @@ Global
 		{4F0A5DB8-35B3-4126-9D38-B12D748ADCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F0A5DB8-35B3-4126-9D38-B12D748ADCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F0A5DB8-35B3-4126-9D38-B12D748ADCCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{439B4B38-B1EA-4D4B-9A78-0DACC127E378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{439B4B38-B1EA-4D4B-9A78-0DACC127E378}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{439B4B38-B1EA-4D4B-9A78-0DACC127E378}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B813B00B-8F6E-4D0C-AA63-03864302A439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B813B00B-8F6E-4D0C-AA63-03864302A439}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B813B00B-8F6E-4D0C-AA63-03864302A439}.Release|Any CPU.ActiveCfg = Release|Any CPU
